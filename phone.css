@@ -1,0 +1,146 @@
+/* NAVBAR */
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: sticky;
+}
+
+
+
+.ulist{
+    display: flex;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    list-style: none;
+    
+    font-weight: bold;
+}
+
+.list a{
+    text-decoration: none;
+    padding: 2px 1px;
+    margin: 4px 6px;
+    color: black;
+    font-size: 0.8rem;
+} 
+
+
+/* home section */
+
+#home::before{
+   
+    height: auto;
+    width: 100%;
+   
+}
+
+
+.head{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 8px;
+    
+}
+
+#home p{
+    margin: 1px 5px;
+    font-size: 1.1rem;
+
+}
+
+#home button{
+    padding: 2px 2px;
+    margin: 15px 2px;
+    width:200px;
+    border-radius: 3px;
+    font-size: 1.1rem;
+ 
+}
+
+/* services section */
+
+#services{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+}
+
+
+#services .order{
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px 30px;
+}
+
+#services .order img{
+    height: 100px;
+    width: auto;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+
+
+/* partner section */
+
+
+#partner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+
+    }
+
+
+#partner .logos img{
+    height: auto;
+    width: 75px;
+margin: 5px;
+}
+
+#partnersection h1{
+    padding-top: 20px;
+}
+
+/* contact section */
+
+#contactsection{
+    height: auto;
+
+}
+
+.formgroup input{
+    display: flex;
+    /* flex-direction: column; */
+    width: auto;
+    height: 20px;
+    border-radius: 5px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+text-align: center;
+font-size: 1rem;
+}
+
+#submitdetails input{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+}
+
+/* footer */
+
+footer .copyright{
+    
+    font-size: 0.7rem;
+   
+}
